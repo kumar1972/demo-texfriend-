@@ -25,7 +25,7 @@ window.isDemo = false;
 
 window.TEXFRIEND_CLOUD = {
 
-    ENABLED: true,
+    ENABLED: false,
 
     FIRESTORE: false,
 
@@ -33,42 +33,13 @@ window.TEXFRIEND_CLOUD = {
 
     STORAGE: false,
 
-    RTDB: true
+    RTDB: false 
 
 };
 
 // ============================================================
 // FIREBASE CONFIG
 // ============================================================
-
-window.TEXFRIEND_FIREBASE_CONFIG = {
-
-    apiKey:
-        "AIzaSyBhZy8Rsq1tBSSTlJVDt4yUhOgqHETylZA",
-
-    authDomain:
-        "texfriend-pro.firebaseapp.com",
-
-    projectId:
-        "texfriend-pro",
-
-    storageBucket:
-        "texfriend-pro.firebasestorage.app",
-
-    messagingSenderId:
-        "534662791669",
-
-    appId:
-        "1:534662791669:web:e20d91563e045ce8a0a0bc",
-
-    measurementId:
-        "G-XE17DME46Y",
-
-    // கீழே உள்ள URL-ஐ உங்கள் Firebase-ல் Realtime Database பகுதியில் செக் செய்து கொள்ளுங்கள்
-    databaseURL:
-        "https://texfriend-pro-default-rtdb.asia-southeast1.firebasedatabase.app/" 
-
-};
 
 
 // ============================================================
